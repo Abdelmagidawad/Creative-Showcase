@@ -16,6 +16,24 @@
 html {
   scroll-behavior: smooth;
 }
+html::-webkit-scrollbar {
+  width: 15px;
+}
+
+html::-webkit-scrollbar-track {
+  box-shadow: 0 0 7px #777 inset;
+  background-color: #ddd;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #1296f3;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #3054cb9f;
+}
 
 body {
   font-family: "Cairo", sans-serif;
@@ -1295,7 +1313,7 @@ ul {
 .events .dots-up {
   top: 200px;
   right: 0;
-  animation: anim-dots-up 5s infinite alternate;
+  animation: anim-dots-up 6s infinite alternate;
 }
 
 @keyframes anim-dots-up {
@@ -1315,7 +1333,7 @@ ul {
 .events .dots-down {
   bottom: 200px;
   left: 0;
-  animation: anim-dots-down 5s infinite alternate;
+  animation: anim-dots-down 6s infinite alternate;
 }
 
 @keyframes anim-dots-down {
