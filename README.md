@@ -1,11 +1,17 @@
-# Template html and css
+# Creative Showcase
  
- This template was designed  to be implemented in HTML and CSS
+ Creative Showcase designd to this template to be implementaion in html and css and css animation and responsive web design and javaScript
  
  
- ## Tools
- HTML and CSS and Css-grid,Css-flex,Css-animations and Javascript
+ ## Technologies Used
+
+ - HTML
+- CSS
+- CSS Animation
+- CSS Flex
+- Css Grid
+- JavaScript
  
  
  ## Link Demo
- https://abdelmagidawad.github.io/Migo-Template/
+ https://abdelmagidawad.github.io/Creative-Showcase/
