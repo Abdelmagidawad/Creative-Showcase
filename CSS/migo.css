@@ -1194,6 +1194,7 @@ ul {
   background-color: var(--main-color);
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  transition: width var(--main-transition) ease-out;
 }
 
 /* End Skills  */
